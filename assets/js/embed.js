@@ -6,7 +6,7 @@
 // initHtml(userInfo,{domain:window.location.href})
 // 如果需要修改嵌入的盒子宽高
 // initHtml(userInfo,{boxWidth:500,boxHeight:400,domain:window.location.href})
-let chatHost = 'https://www.wiidon.com:8082';
+let chatHost = 'http://1.117.226.147:8082';
 let options =null;
 function initHtml(userInfo,option) {
     let src = setSrc( userInfo,option);
